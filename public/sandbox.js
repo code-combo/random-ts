@@ -43,3 +43,7 @@ kickTwo = {
     price: "$300"
 };
 console.log(kickOne, kickTwo);
+// DYNAMIC(any)
+let kickThree = [];
+kickThree = ["Nike Air Force"];
+kickThree = false;
