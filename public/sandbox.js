@@ -47,3 +47,17 @@ console.log(kickOne, kickTwo);
 let kickThree = [];
 kickThree = ["Nike Air Force"];
 kickThree = false;
+// FUNCTION BASICS
+let greet;
+greet = () => {
+    console.log('hello, world');
+};
+const add = (a, b, c = 10) => {
+    console.log(a + b);
+    console.log(c);
+};
+add(5, 5);
+const minus = (a, b) => {
+    return a - b;
+};
+let result = minus(1, 2);

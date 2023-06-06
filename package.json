@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "update": "^0.7.4"
   }
 }
