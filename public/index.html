@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Typescript docs</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Typescript docs</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+	<body>
+		<div class="wrapper">
+			<h1>Finance Logger</h1>
 
-<body>
-  <!-- <h1>Typescript docs</h1> -->
-  <script src="sandbox.js"></script>
-  <form class="comtainer">
-    <input type="text" name="" id="" value="" required placeholder="Your name" autofocus />
-    <span class="display-name">Hello Toluwanimi</span>
-    <form>
-</body>
+			<!-- output list -->
+			<ul class="item-list"></ul>
+		</div>
 
+		<footer>
+			<form class="new-item-form">
+				<div class="field">
+					<label>Type:</label>
+					<select id="type">
+						<option value="invoice">Invoice</option>
+						<option value="payment">Payment</option>
+					</select>
+				</div>
+				<div class="field">
+					<label>To / From:</label>
+					<input type="text" id="tofrom" />
+				</div>
+				<div class="field">
+					<label>Details:</label>
+					<input type="text" id="details" />
+				</div>
+				<div class="field">
+					<label>Amount (£):</label>
+					<input type="number" id="amount" />
+				</div>
+				<button>Add</button>
+			</form>
+
+			<a href="https://www.thenetninja.co.uk">The Net Ninja</a>
+		</footer>
+		p
+		<script src="sandbox.js"></script>
+	</body>
 </html>
