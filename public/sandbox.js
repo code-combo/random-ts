@@ -1,16 +1,8 @@
 "use strict";
-let character = "mario";
-let age = 30;
-// age = "Toluwanimi";
-// console.log(age);
-// const circ = (diameter: number) => {
-//   return diameter * Math.PI;
-// }
-// console.log(circ(1))
-const siblings = ["Oluwaseyi", "Oluwapelumi", "Similoluwa"];
-siblings.push("me🥹");
-siblings[0] = 'shegzy';
-console.log(siblings);
+// const siblings = ["Oluwaseyi", "Oluwapelumi", "Similoluwa"];
+// siblings.push("me🥹");
+// siblings[0] = 'shegzy';
+// console.log(siblings)
 // Objects in Typescript
 let futarian = {
     name: "Toluwanimi Atofarati",
@@ -26,7 +18,20 @@ futarian = {
 };
 // console.log(futarian);
 // EXPLICIT TYPES
-console.log("yay!");
+let character;
+character = "Toluwanimi";
+console.log(character);
 // ARRAYS
+let siblings = [];
+siblings.push('seyi', 'pelumi', 'simi');
+console.log(siblings);
 // UNION TYPES
+let ninjas = ["ogbeni!"];
+ninjas.push('alaye', 100, "idan", false, "high don", true);
+console.log(ninjas);
 // OBJECTS
+let kickOne;
+kickOne = {
+    model: "Nike",
+    name: "Sb Dunk Jarritos"
+};

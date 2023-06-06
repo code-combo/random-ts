@@ -1,21 +1,8 @@
-let character = "mario";
-let age = 30;
+// const siblings = ["Oluwaseyi", "Oluwapelumi", "Similoluwa"];
+// siblings.push("me🥹");
+// siblings[0] = 'shegzy';
 
-// age = "Toluwanimi";
-
-// console.log(age);
-
-// const circ = (diameter: number) => {
-//   return diameter * Math.PI;
-// }
- 
-// console.log(circ(1))
-
-const siblings = ["Oluwaseyi", "Oluwapelumi", "Similoluwa"];
-siblings.push("me🥹");
-siblings[0] = 'shegzy';
-
-console.log(siblings)
+// console.log(siblings)
 
 // Objects in Typescript
 
@@ -35,11 +22,25 @@ futarian = {
 // console.log(futarian);
 
 // EXPLICIT TYPES
-console.log("yay!")
+let character: string | number;
+character = "Toluwanimi"
+console.log(character);
 
 
 // ARRAYS
+let siblings: string[] = [];
+siblings.push('seyi', 'pelumi', 'simi');
+console.log(siblings);
+
 
 // UNION TYPES
+let ninjas: (string | number | boolean)[] = ["ogbeni!"];
+ninjas.push('alaye', 100, "idan", false, "high don", true);
+console.log(ninjas);
 
 // OBJECTS
+// let kickOne: object;
+// kickOne = {
+//   model: "Nike",
+//   name: "Sb Dunk Jarritos"
+// }
