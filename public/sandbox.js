@@ -35,3 +35,11 @@ kickOne = {
     model: "Nike",
     name: "Sb Dunk Jarritos"
 };
+let kickTwo;
+kickTwo = {
+    model: "Nike",
+    name: "Air Max",
+    year: 2015,
+    price: "$300"
+};
+console.log(kickOne, kickTwo);

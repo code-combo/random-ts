@@ -39,8 +39,24 @@ ninjas.push('alaye', 100, "idan", false, "high don", true);
 console.log(ninjas);
 
 // OBJECTS
-// let kickOne: object;
-// kickOne = {
-//   model: "Nike",
-//   name: "Sb Dunk Jarritos"
-// }
+let kickOne: object;
+kickOne = {
+  model: "Nike",
+  name: "Sb Dunk Jarritos"
+}
+
+let kickTwo: {
+  model: string,
+  name: string,
+  year: number,
+  price: string
+}
+
+kickTwo = {
+  model: "Nike",
+  name: "Air Max",
+  year: 2015,
+  price: "$300"
+}
+
+console.log(kickOne, kickTwo);
