@@ -20,5 +20,13 @@ let futarian = {
 };
 futarian = {
     name: 'Similoluwa',
-    age: "17",
+    age: 17,
+    matricNo: "NILL",
+    level: 0
 };
+// console.log(futarian);
+// EXPLICIT TYPES
+console.log("yay!");
+// ARRAYS
+// UNION TYPES
+// OBJECTS
