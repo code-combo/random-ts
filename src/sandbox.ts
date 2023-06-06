@@ -6,19 +6,19 @@
 
 // Objects in Typescript
 
-let futarian = {
-  name: "Toluwanimi Atofarati",
-  age: 20,
-  matricNo: "IFT/20/5031",
-  level: 200
-}
+// let futarian = {
+//   name: "Toluwanimi Atofarati",
+//   age: 20,
+//   matricNo: "IFT/20/5031",
+//   level: 200
+// }
 
-futarian = {
-  name: 'Similoluwa',
-  age: 17,
-  matricNo: "NILL",
-  level: 0
-}
+// futarian = {
+//   name: 'Similoluwa',
+//   age: 17,
+//   matricNo: "NILL",
+//   level: 0
+// }
 // console.log(futarian);
 
 // EXPLICIT TYPES
@@ -84,3 +84,21 @@ const minus = (a:number, b:number): number => {
   return a - b;
 }
 let result = minus(1, 2);
+
+// ALIASES
+
+type futaStudent = {name: string, matricNo: number | string, CGPA: number}
+type receiversEmoji = string | boolean;
+
+const rxn = (emoji: receiversEmoji) => {
+  console.log(`Toluwanimi reacted "${emoji}" to your message`)
+}; rxn(true);
+
+
+const futarian = (student: futaStudent) => {
+  console.log(`${student.name} had a CGPA of ${student.CGPA} this session (${student.matricNo})`);
+}; futarian({
+  name: "Toluwanimi",
+  matricNo: "IFT/20/5031",
+  CGPA: 3.6
+});
