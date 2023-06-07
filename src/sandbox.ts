@@ -102,3 +102,26 @@ const futarian = (student: futaStudent) => {
   matricNo: "IFT/20/5031",
   CGPA: 3.6
 });
+
+// FUNCTION SIGNATURES
+
+    // example1
+  let hello: (a:string, b:string) => void
+  hello = (name, time) => {
+    console.log(`good${time} ${name}`);
+  }
+
+    // example2
+  let calc: (tNum1: number, tNum2: number, tAction: string) => number;
+  calc = (num1, num2, action) => {
+    if(action === "add") {
+      return num1 + num2;
+    } else {
+      return num1 - num2;
+    }
+  };
+  calc(2, 5, add);
+
+
+    // example3
+

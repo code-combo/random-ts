@@ -73,3 +73,21 @@ futarian({
     matricNo: "IFT/20/5031",
     CGPA: 3.6
 });
+// FUNCTION SIGNATURES
+// example1
+let hello;
+hello = (name, time) => {
+    console.log(`good${time} ${name}`);
+};
+// example2
+let calc;
+calc = (num1, num2, action) => {
+    if (action === "add") {
+        return num1 + num2;
+    }
+    else {
+        return num1 - num2;
+    }
+};
+calc(2, 5, add);
+// example3
