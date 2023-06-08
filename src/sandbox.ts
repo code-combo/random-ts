@@ -120,8 +120,10 @@ const futarian = (student: futaStudent) => {
       return num1 - num2;
     }
   };
-  calc(2, 5, add);
+  calc(2, 5, "add");
 
-
+// let restult2: Function;
+const result2 =   calc(2, 5, "add");
+console.log(`you scored ${result2} out of 10`);
     // example3
 
